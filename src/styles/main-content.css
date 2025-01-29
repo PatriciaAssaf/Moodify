@@ -2,7 +2,8 @@
     max-width: 80vw;
     height: 100vh;
     margin-left: 320px;
-    margin-right: 56px;
+    margin-right: 10px;
+    margin-top: 12px;
 }
 
 .header__navigation {
@@ -46,7 +47,7 @@
 .header__search {
     display: flex;
     align-items: center;
-    width: 36px;
+    width: 400px;
     height: 48px;
     margin-left: 8px;
     background-color:#242424;
@@ -72,15 +73,16 @@
 }
 
 .header__login .subscribe {
-    color: #a7a7a7
+    color: #a7a7a7;
     font-size: 16px;
     font-weight: 700;
     background-color: transparent;
     margin-right: 32px;
+    border: none;
 }
 
 .header__login .login {
-    width
+    width: 100px;
     height: 48px;
     color: #000;
     font-size: 16px;
